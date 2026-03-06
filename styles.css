@@ -536,6 +536,11 @@
         justify-content: space-between;
     }
 
+    .Conditions {
+        padding-left: 5px;
+        justify-content: space-around;
+    }
+
     .Conditions h2 {
         font-size: 1.8rem;
         text-align: left;

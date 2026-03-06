@@ -2,8 +2,6 @@ const WHATSAPP_NUMERO = "584126691482";
 const cap = (t) => t ? t.charAt(0).toUpperCase() + t.slice(1).toLowerCase() : "";
 
 document.addEventListener('DOMContentLoaded', () => {
-    // --- LÓGICA DEL BUSCADOR QUE YA TIENES EN TU HTML ---
-    // Usamos el selector estándar de buscador para que reconozca el tuyo
     const buscador = document.querySelector('.search-box input') || document.querySelector('input[type="text"]');
     
     if (buscador) {
