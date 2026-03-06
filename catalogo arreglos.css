@@ -314,6 +314,7 @@
     .header-right {
         display: flex;
         gap: 10px;
+        padding-right: 5px;
     }
 
     .info-carousel-container {
@@ -370,6 +371,6 @@
         text-align: center;
         justify-items: center;
         padding-right: 0;
-        font-size: 1.0rem;
+        font-size: 0.8rem;
     }
 }
