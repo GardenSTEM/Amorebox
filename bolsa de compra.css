@@ -272,7 +272,7 @@ body {
         display: grid;
         grid-template-columns: 1fr;
         gap: 15px;
-        align-items: start;
+        align-items: center;
         justify-content: space-around;
         padding-right: 8px;
         padding-left: 8px;

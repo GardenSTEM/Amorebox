@@ -463,9 +463,10 @@
 
     .category-row, .category-row-reverse {
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
         text-align: center;
-        padding-left: 8px;
+        padding-left: 5px;
+        width: 100%;
     }
 
     .categoryImage img {
