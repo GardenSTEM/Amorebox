@@ -271,11 +271,11 @@ body {
     .cart-content {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 15px;
         align-items: start;
+        justify-content: space-around;
         padding-right: 8px;
         padding-left: 8px;
-        width: 50%;
     }
 
 
