@@ -465,7 +465,7 @@
         flex-direction: column;
         gap: 20px;
         text-align: center;
-        justify-content: center;
+        padding-left: 10px;
     }
 
     .categoryImage img {
