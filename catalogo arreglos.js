@@ -77,7 +77,7 @@ window.openModal = function(nombre, detalle, precio, imagen) {
                 width: 30px; height: 30px; line-height: 28px;
             }
             .modal-img { width: 100%; height: 300px; object-fit: cover; display: block; background: #f9f9f9; }
-            .modal-body { padding: 8px; }
+            .modal-body { padding: 5px;, justify-content: center; }
             .modal-price { font-size: 1.5rem; font-weight: 800; margin: 8px 0; color: #000; }
             
             .qty-selector {

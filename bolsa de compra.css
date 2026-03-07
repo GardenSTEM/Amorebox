@@ -274,7 +274,8 @@ body {
         gap: 20px;
         align-items: start;
         padding-right: 8px;
-        padding-left: 8px; 
+        padding-left: 8px;
+        width: 50%;
     }
 
 
