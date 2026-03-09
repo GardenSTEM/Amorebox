@@ -82,7 +82,7 @@ window.openModal = function(nombre, marca, precio, imagen) {
                 width: 30px; height: 30px; line-height: 28px;
             }
             .modal-img { width: 100%; height: 300px; object-fit: cover; display: block; background: #f9f9f9; }
-            .modal-body { padding: 15px; }
+            .modal-body { padding: 5px 5px; justify-content: center; }
             .modal-price { font-size: 1.5rem; font-weight: 800; margin: 8px 0; color: #000; }
             
             .btn-amore {

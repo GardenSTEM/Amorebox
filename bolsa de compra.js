@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const cart = JSON.parse(localStorage.getItem('amore_carrito')) || [];
         
         if (cart.length === 0) {
-            listContainer.innerHTML = "<p style='text-align:center; padding-left: 15px; padding-top:20px'>Tu bolsa está vacía.</p>";
+            listContainer.innerHTML = "<p style='text-align:center; padding: 5vh 2vw; padding-top:20px'>Tu bolsa está vacía.</p>";
             if (totalLabel) totalLabel.innerText = "$0,00";
             if (totalSection) totalSection.style.display = "none";
             return;

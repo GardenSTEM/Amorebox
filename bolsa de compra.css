@@ -238,7 +238,7 @@ body {
     }
 
     .main-header {
-        width: 95%;
+        width: 80%;
         flex-direction: row;
         padding-left: 5px;
         padding-right: 5px;
@@ -246,6 +246,7 @@ body {
 
     .header-left p {
         font-size: 1.2rem;
+        font-size: 0.8rem;
         padding-left: 5px;
     }
 
@@ -253,6 +254,9 @@ body {
         display: right;
         gap: 8px;
         align-items: right;
+        display: flex;
+        gap: 10px;
+        padding-right: 5px;
     }
 
     .nav-icon {
@@ -271,7 +275,7 @@ body {
     .cart-container h1 {
         font-size: 1.5rem;
         margin-bottom: 15px;
-        padding: 10px;
+        padding-left: 20px;
         text-align: left;
     }
 
@@ -283,7 +287,13 @@ body {
         padding-right: 20px;
         padding-left: 10px; 
         width: 90%;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-around;
+        padding-right: 5px;
+        padding-left: 5px;
     }
+
 
     .cart-item {
         display: flex;
@@ -310,7 +320,7 @@ body {
     .cart-item-info h3 {
         font-family: var(--fuente-elegante);
         font-size: 1.1rem;
-        margin: 0 0 15ppx 0;
+        margin: 0 0 15px 0;
         letter-spacing: 1px;
         color: var(--marron-amore);
         font-weight: 700;
