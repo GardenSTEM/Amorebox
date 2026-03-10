@@ -309,7 +309,7 @@
     .main-header {
         width: 95%;
         flex-direction: row;
-        padding: 5px 15px;
+        padding: 15px;
     }
 
     .logo-nav {

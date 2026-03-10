@@ -355,7 +355,7 @@
         flex-direction: column;
         gap: 20px;
         text-align: center;
-        padding:0 15px;
+        padding: 15px;
     }
 
     .filters-container {
