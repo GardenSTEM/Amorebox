@@ -245,8 +245,16 @@ body {
         justify-content: space-around;
     }
 
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 5px auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     .header-left p {
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         padding-left: 5px;
     }
 

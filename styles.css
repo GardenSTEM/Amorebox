@@ -472,6 +472,7 @@
         text-align: center;
         width: 100%;
         padding-left: 0;
+        padding-right: 0;
     }
 
     .categoryImage img {
@@ -518,13 +519,13 @@
         grid-template-columns: 1fr 1fr;
         gap: 15px;
         text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0;
+        padding-right: 0;
         width: 100%;
     }
 
     .main-header {
-        width: 95%;
+        width: 100%;
         flex-direction: row;
         padding: 5px 15px;
     }
@@ -545,8 +546,8 @@
     }
 
     .Conditions {
-        padding-left: 2px;
-        padding-right: 2px;
+        padding-left: 0;
+        padding-right: 0;
     
     }
 
