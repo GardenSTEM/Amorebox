@@ -234,14 +234,6 @@ body {
     .container {
         justify-content: space-between;
         align-items: center;
-        display: flex;
-    }
-
-    .main-header {
-        width: 80%;
-        flex-direction: row;
-        padding-left: 5px;
-        padding-right: 5px;
     }
 
     .header-left p {
