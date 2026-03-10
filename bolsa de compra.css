@@ -91,7 +91,7 @@ body {
     padding-left: 100px;
 }
 
-.cart-item {
+.cart-items {
     display: flex;
     align-items: center;
     padding: 20px 0;
@@ -231,14 +231,22 @@ body {
 
 @media screen and (max-width: 768px) {
 
-    .container {
+    .main-header {
+        width: 100%; /* Cambiado de 80% a 100% */
+        padding: 15px 0;
+        margin: 0;
+    }
+
+    .main-header .container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
     .header-left p {
-        font-size: 1.2rem;
-        font-size: 0.8rem;
+        font-size: 1.0rem;
         padding-left: 5px;
     }
 
@@ -259,38 +267,36 @@ body {
     .cart-container {
         padding: 10px;
         width: 90%;
-        max-width: 1100px;
-        margin: 5px auto;
-        justify-content: space-around;
+        max-width: 1200px;
+        margin: 2px auto;
+        justify-content: center;
+        align-items: center;
+        display: grid;
     }
 
     .cart-container h1 {
-        font-size: 1.5rem;
-        margin-bottom: 15px;
-        padding-left: 20px;
-        text-align: left;
+        font-size: 1.5rem; 
+        text-align: center; 
+        width: 100%;
+        display: grid;
+        padding-left: 0;
     }
+
 
     .cart-content {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-        align-items: center;
-        padding-right: 20px;
-        padding-left: 10px; 
-        width: 90%;
-        gap: 10px;
-        align-items: center;
-        justify-content: space-around;
-        padding-right: 5px;
-        padding-left: 5px;
+        display: flex;
+        flex-direction: column;
+        padding: 0; 
+        width: 100%;
+        margin: 0 auto;
     }
 
 
-    .cart-item {
+    .cart-items {
         display: flex;
         align-items: center;
-        padding: 10px 0;
+        padding: 10px;
+        padding-right: 0;
         gap: 10px;
         
     }
@@ -376,13 +382,12 @@ body {
     }
 
     .cart-total {
-        display: none; /* Cambiar esto para mostrarlo solo cuando se agreguen productosal carrito, de querer verlo solo cambia "none" a "grid" */
-        grid-template-columns: 1fr;
+        display: grid; /* Cambiar esto para mostrarlo solo cuando se agreguen productosal carrito, de querer verlo solo cambia "none" a "grid" */
+        grid-template-columns: 1fr 1fr;
         gap: 20px;
-        align-items: start;
-        padding-right: 30px;
+        align-items: center;
         padding-left: 30px;
-        width: 90%;
+        width: 100%;
     }
 
     .cart-total h2 {
