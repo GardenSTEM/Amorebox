@@ -360,7 +360,7 @@
         flex-direction: column;
         gap: 20px;
         text-align: center;
-        padding: 15px;
+        padding: 5px 15px;
     }
 
     .filters-container {
@@ -375,7 +375,7 @@
         width: 100%;
     }
 
-     .footer-content {
+    .footer-content {
         gap: 20px;
         flex-direction: column;
         justify-content: center;
