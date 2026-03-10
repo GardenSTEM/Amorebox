@@ -457,6 +457,11 @@
 
 @media (max-width: 768px) {
     
+    body {
+    overflow-x: hidden; /* Corta cualquier contenido que intente salirse a la derecha */
+    width: 100%;
+    }
+
     .categoryText h2 {
         font-size: 2.0rem;
     }

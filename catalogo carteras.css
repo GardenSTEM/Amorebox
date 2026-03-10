@@ -311,6 +311,11 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    body {
+    overflow-x: hidden; /* Corta cualquier contenido que intente salirse a la derecha */
+    width: 100%;
+    }
     
     .main-header {
         width: 95%;
