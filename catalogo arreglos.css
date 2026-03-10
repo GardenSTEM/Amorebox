@@ -301,15 +301,21 @@
 
 @media screen and (max-width: 768px) {
 
+    * {
+    box-sizing: border-box;
+    }
+
     body {
     overflow-x: hidden; /* Corta cualquier contenido que intente salirse a la derecha */
     width: 100%;
+
     }
 
     .main-header {
         width: 100%;
         flex-direction: row;
-        padding: 15px;
+        padding: 5px 10px;
+        box-sizing: border-box;
     }
 
     .logo-nav {
@@ -341,7 +347,7 @@
         }
 
 
-     .main-container {
+    .main-container {
         flex-direction: column;
         gap: 20px;
         text-align: center;
