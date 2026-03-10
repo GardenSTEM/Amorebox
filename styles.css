@@ -471,8 +471,8 @@
         gap: 15px;
         text-align: center;
         width: 100%;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .categoryImage img {
@@ -506,8 +506,8 @@
     }
 
     .best-sellers {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .best-sellers h2{
@@ -519,8 +519,8 @@
         grid-template-columns: 1fr 1fr;
         gap: 15px;
         text-align: center;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
         width: 100%;
     }
 
@@ -546,8 +546,8 @@
     }
 
     .Conditions {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     
     }
 
