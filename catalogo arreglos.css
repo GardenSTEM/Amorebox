@@ -307,7 +307,7 @@
     }
 
     .main-header {
-        width: 95%;
+        width: 100%;
         flex-direction: row;
         padding: 15px;
     }
