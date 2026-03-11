@@ -312,21 +312,30 @@
 
 @media screen and (max-width: 768px) {
 
-    * {
-    box-sizing: border-box;
+.main-container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        padding:0 15px;
     }
 
-    body {
-    overflow-x: hidden; /* Corta cualquier contenido que intente salirse a la derecha */
-    width: 100%;
-    }
-    
-    .main-header {
+    .filters-container {
         width: 100%;
+        position: relative;
+        top: 0;
+    }
+
+    .catalogo-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .main-header {
+        width: 95%;
         flex-direction: row;
         padding: 5px 15px;
-        box-sizing: border-box;
     }
+
 
     .logo-nav {
         height: 50px;
@@ -335,51 +344,15 @@
     .header-right {
         display: flex;
         gap: 10px;
-        padding-right: 5px;
-    }
-
-    .info-carousel-container {
-        width: 100%;
-        overflow: hidden;
     }
 
     .info-carousel-track {
-        animation: spin 20s infinite linear;
-    }
-
-    .info-carousel-track[aria-hidden="true"] {
         display: flex;
+        gap: 50px;
+        justify-content: space-between;
     }
 
-     @keyframes spin {
-            from {translate: 0;}
-            to {translate: -100%;}
-        }
-
-    .main-container {
-        flex-direction: column;
-        gap: 0;
-        text-align: center;
-        padding: 0 15px;
-        align-items: center;
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .filters-container {
-        width: 100%;
-        position: relative;
-        top: 0;
-        justify-content: center;
-    }
-
-    .catalogo-grid {
-        grid-template-columns: 1fr; 
-        width: 100%;
-        justify-items: center;
-    }
-
-    .footer-content {
+     .footer-content {
         gap: 20px;
         flex-direction: column;
         justify-content: center;
@@ -395,10 +368,6 @@
         text-align: center;
         justify-items: center;
         padding-right: 0;
-        font-size: 0.8rem;
-    }
-
-    .divider {
-        width: 100%;
+        font-size: 1.0rem;
     }
 }
