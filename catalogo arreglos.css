@@ -361,12 +361,13 @@
         width: 100%;
         position: relative;
         top: 0;
+        justify-content: center;
     }
 
     .catalogo-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
+        grid-template-columns: 1fr; 
         width: 100%;
+        justify-items: center;
     }
 
     .footer-content {
