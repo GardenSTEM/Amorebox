@@ -315,6 +315,7 @@
         flex-direction: row;
         padding: 5px 15px;
         box-sizing: border-box;
+
     }
 
     .logo-nav {
@@ -350,7 +351,9 @@
         flex-direction: column;
         gap: 20px;
         text-align: center;
-        padding: 0 18px;
+        padding: 0 15px;
+        align-items: center;
+        width: 100%;
     }
 
     .search{
