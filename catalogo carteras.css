@@ -311,7 +311,16 @@
 }
 
 @media screen and (max-width: 768px) {
-   
+
+    * {
+    box-sizing: border-box;
+    }
+
+    body {
+    overflow-x: hidden; /* Corta cualquier contenido que intente salirse a la derecha */
+    width: 100%;
+    }
+    
     .main-header {
         width: 100%;
         flex-direction: row;
@@ -351,9 +360,10 @@
         flex-direction: column;
         gap: 20px;
         text-align: center;
-        padding: 0 15px;
+        padding: 5px 15px;
         align-items: center;
         width: 100%;
+        max-width: 1200px;
     }
 
     .filters-container {
@@ -385,5 +395,9 @@
         justify-items: center;
         padding-right: 0;
         font-size: 0.8rem;
+    }
+
+    .divider {
+        width: 100%;
     }
 }
