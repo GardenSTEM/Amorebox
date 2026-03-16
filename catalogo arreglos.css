@@ -359,15 +359,16 @@
     }
 
     .search{
-        width: 100%;
+        width: 95%;
         position: relative;
         top: 0;
         justify-content: center;
+
     }
 
     .catalogo-grid {
         grid-template-columns: 1fr; 
-        width: 100%;
+        width: 95%;
         justify-items: center;
         padding-bottom: 20px;
     }
