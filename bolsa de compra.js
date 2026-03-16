@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const cart = JSON.parse(localStorage.getItem('amore_carrito')) || [];
                 if (cart.length === 0) return;
 
-                let mensaje = "Hola, Amorebox. Un gusto saludarlos! Me gustaría hacerles un pedido de:\n\n";
+                let mensaje = "Hola, Amore Box. Un gusto saludarlos! Me gustaría hacerles un pedido de:\n\n";
                 let totalFinal = 0;
                 
                 cart.forEach(it => {
