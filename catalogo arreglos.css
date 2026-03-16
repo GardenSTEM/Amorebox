@@ -355,11 +355,10 @@
         align-items: center;
         width: 100%;
         margin: 0 auto;
-        padding-right: 15px;
     }
 
     .search{
-        width: 95%;
+        width: 98%;
         position: relative;
         top: 0;
         justify-content: center;
@@ -368,7 +367,7 @@
 
     .catalogo-grid {
         grid-template-columns: 1fr; 
-        width: 95%;
+        width: 98%;
         justify-items: center;
         padding-bottom: 20px;
     }
